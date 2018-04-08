@@ -1,0 +1,14 @@
+.travel-agency-logo {
+  height: 50px;
+}
+
+.header {
+  background-color: #eee;
+  height: 50px;
+  padding: 0px 10px;
+  color: #000;
+}
+
+.header-title {
+  font-size: 1.5em;
+}

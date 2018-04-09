@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import logo from '../images/logo/logo_large.png';
+import Cards from '../components/card-section';
 import Footer from '../components/footer';
-import data from '../mockups/products.json';
 import '../css/structure.css';
+import data from '../mockups/products.json';
 
 class App extends Component {
   render() {
@@ -15,56 +16,9 @@ class App extends Component {
           </div>
         </header>
         <div className="container">
-            <h2 className="section-title">
-              <span>Featured</span>
-            </h2>
-            <div className="section-content">
-              {data.products[0].featured.map(card => (
-                <div className="card" key={card.location}>
-                  <img src={card.imgUrl} alt={card.location}/>
-                  <div className="location-title">{card.location}</div>
-                  <div>{card.description}</div>
-                  <div><i className="fas fa-user"></i>{card.currency}{card.priceOne}</div>
-                  <div><i className="fas fa-users"></i>{card.currency}{card.priceTwo}</div>
-                  <div><i className="fas fa-user-plus"></i>{card.currency}{card.priceThree}</div>
-                  <button>Book Now</button>
-                </div>
-              ))}
-            </div>
-
-            <h2 className="section-title">
-              <span>Algarve</span>
-            </h2>
-            <div className="section-content">
-              {data.products[0].algarve.map(card => (
-                <div className="card" key={card.location}>
-                  <img src={card.imgUrl} alt={card.location}/>
-                  <div className="location-title">{card.location}</div>
-                  <div>{card.description}</div>
-                  <div><i className="fas fa-user"></i>{card.currency}{card.priceOne}</div>
-                  <div><i className="fas fa-users"></i>{card.currency}{card.priceTwo}</div>
-                  <div><i className="fas fa-user-plus"></i>{card.currency}{card.priceThree}</div>
-                  <button>Book Now</button>
-                </div>
-              ))}
-            </div>
-
-            <h2 className="section-title">
-              <span>Alentejo</span>
-            </h2>
-            <div className="section-content">
-              {data.products[0].alentejo.map(card => (
-                <div className="card" key={card.location}>
-                  <img src={card.imgUrl} alt={card.location}/>
-                  <div className="location-title">{card.location}</div>
-                  <div>{card.description}</div>
-                  <div><i className="fas fa-user"></i>{card.currency}{card.priceOne}</div>
-                  <div><i className="fas fa-users"></i>{card.currency}{card.priceTwo}</div>
-                  <div><i className="fas fa-user-plus"></i>{card.currency}{card.priceThree}</div>
-                  <button>Book Now</button>
-                </div>
-              ))}
-            </div>
+          <Cards product={data.products[0].featured} name="Featured"/>
+          <Cards product={data.products[0].algarve} name="Algarve"/>
+          <Cards product={data.products[0].alentejo} name="Alentejo"/>
         </div>
         <Footer />      
       </div>

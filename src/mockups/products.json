@@ -8,9 +8,9 @@
           "imgUrl": "/images/places/monte_gordo_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "currency": "€",
-          "price-one": 15,
-          "price-two": 25,
-          "price-three": 10
+          "priceOne": 15,
+          "priceTwo": 25,
+          "priceThree": 10
         },
         {
           "location": "Albufeira",
@@ -18,9 +18,9 @@
           "imgUrl": "/images/places/albufeira_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper imperdiet orci, rhoncus vestibulum nulla dignissim eu.",
           "currency": "€",
-          "price-one": 18,
-          "price-two": 15,
-          "price-three": 8
+          "priceOne": 18,
+          "priceTwo": 15,
+          "priceThree": 8
         },
         {
           "location": "Sagres",
@@ -28,9 +28,9 @@
           "imgUrl": "/images/places/sagres_1024w.jpg",
           "description": "Lorem ipsum dolor.",
           "currency": "€",
-          "price-one": 12,
-          "price-two": 10,
-          "price-three": null
+          "priceOne": 12,
+          "priceTwo": 10,
+          "priceThree": null
         },
         {
           "location": "Odeceixe",
@@ -38,9 +38,9 @@
           "imgUrl": "/images/places/odeceixe_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "currency": "€",
-          "price-one": 15,
-          "price-two": 12,
-          "price-three": 10
+          "priceOne": 15,
+          "priceTwo": 12,
+          "priceThree": 10
         },
         {
           "location": "Porto Covo",
@@ -48,9 +48,9 @@
           "imgUrl": "/images/places/porto_covo_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper imperdiet orci, rhoncus vestibulum nulla dignissim eu.",
           "currency": "€",
-          "price-one": 18,
-          "price-two": 15,
-          "price-three": 8
+          "priceOne": 18,
+          "priceTwo": 15,
+          "priceThree": 8
         }
       ],
       "algarve": [
@@ -60,9 +60,9 @@
           "imgUrl": "/images/places/monte_gordo_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "currency": "€",
-          "price-one": 15,
-          "price-two": 25,
-          "price-three": 10
+          "priceOne": 15,
+          "priceTwo": 25,
+          "priceThree": 10
         },
         {
           "location": "Albufeira",
@@ -70,9 +70,9 @@
           "imgUrl": "/images/places/albufeira_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper imperdiet orci, rhoncus vestibulum nulla dignissim eu.",
           "currency": "€",
-          "price-one": 18,
-          "price-two": 15,
-          "price-three": 8
+          "priceOne": 18,
+          "priceTwo": 15,
+          "priceThree": 8
         },
         {
           "location": "Sagres",
@@ -80,9 +80,9 @@
           "imgUrl": "/images/places/sagres_1024w.jpg",
           "description": "Lorem ipsum dolor.",
           "currency": "€",
-          "price-one": 12,
-          "price-two": 10,
-          "price-three": null
+          "priceOne": 12,
+          "priceTwo": 10,
+          "priceThree": null
         },
         {
           "location": "Monte Gordo",
@@ -90,9 +90,9 @@
           "imgUrl": "/images/places/monte_gordo_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "currency": "€",
-          "price-one": 15,
-          "price-two": 25,
-          "price-three": 10
+          "priceOne": 15,
+          "priceTwo": 25,
+          "priceThree": 10
         },
         {
           "location": "Albufeira",
@@ -100,9 +100,9 @@
           "imgUrl": "/images/places/albufeira_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper imperdiet orci, rhoncus vestibulum nulla dignissim eu.",
           "currency": "€",
-          "price-one": 18,
-          "price-two": 15,
-          "price-three": 8
+          "priceOne": 18,
+          "priceTwo": 15,
+          "priceThree": 8
         },
         {
           "location": "Sagres",
@@ -110,9 +110,9 @@
           "imgUrl": "/images/places/sagres_1024w.jpg",
           "description": "Lorem ipsum dolor.",
           "currency": "€",
-          "price-one": 12,
-          "price-two": 10,
-          "price-three": null
+          "priceOne": 12,
+          "priceTwo": 10,
+          "priceThree": null
         },
         {
           "location": "Monte Gordo",
@@ -120,9 +120,9 @@
           "imgUrl": "/images/places/monte_gordo_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "currency": "€",
-          "price-one": 15,
-          "price-two": 25,
-          "price-three": 10
+          "priceOne": 15,
+          "priceTwo": 25,
+          "priceThree": 10
         },
         {
           "location": "Albufeira",
@@ -130,9 +130,9 @@
           "imgUrl": "/images/places/albufeira_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper imperdiet orci, rhoncus vestibulum nulla dignissim eu.",
           "currency": "€",
-          "price-one": 18,
-          "price-two": 15,
-          "price-three": 8
+          "priceOne": 18,
+          "priceTwo": 15,
+          "priceThree": 8
         },
         {
           "location": "Sagres",
@@ -140,9 +140,9 @@
           "imgUrl": "/images/places/sagres_1024w.jpg",
           "description": "Lorem ipsum dolor.",
           "currency": "€",
-          "price-one": 12,
-          "price-two": 10,
-          "price-three": null
+          "priceOne": 12,
+          "priceTwo": 10,
+          "priceThree": null
         },
         {
           "location": "Monte Gordo",
@@ -150,9 +150,9 @@
           "imgUrl": "/images/places/monte_gordo_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "currency": "€",
-          "price-one": 15,
-          "price-two": 25,
-          "price-three": 10
+          "priceOne": 15,
+          "priceTwo": 25,
+          "priceThree": 10
         }
       ],
       "alentejo": [
@@ -162,9 +162,9 @@
           "imgUrl": "/images/places/odeceixe_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "currency": "€",
-          "price-one": 15,
-          "price-two": 12,
-          "price-three": 10
+          "priceOne": 15,
+          "priceTwo": 12,
+          "priceThree": 10
         },
         {
           "location": "Porto Covo",
@@ -172,9 +172,9 @@
           "imgUrl": "/images/places/porto_covo_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper imperdiet orci, rhoncus vestibulum nulla dignissim eu.",
           "currency": "€",
-          "price-one": 18,
-          "price-two": 15,
-          "price-three": 8
+          "priceOne": 18,
+          "priceTwo": 15,
+          "priceThree": 8
         },
         {
           "location": "Sines",
@@ -182,9 +182,9 @@
           "imgUrl": "/images/places/sines_1024w.jpg",
           "description": "Lorem ipsum.",
           "currency": "€",
-          "price-one": 12,
-          "price-two": 10,
-          "price-three": null
+          "priceOne": 12,
+          "priceTwo": 10,
+          "priceThree": null
         },
         {
           "location": "Odeceixe",
@@ -192,9 +192,9 @@
           "imgUrl": "/images/places/odeceixe_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "currency": "€",
-          "price-one": 15,
-          "price-two": 12,
-          "price-three": 10
+          "priceOne": 15,
+          "priceTwo": 12,
+          "priceThree": 10
         },
         {
           "location": "Porto Covo",
@@ -202,9 +202,9 @@
           "imgUrl": "/images/places/porto_covo_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper imperdiet orci, rhoncus vestibulum nulla dignissim eu.",
           "currency": "€",
-          "price-one": 18,
-          "price-two": 15,
-          "price-three": 8
+          "priceOne": 18,
+          "priceTwo": 15,
+          "priceThree": 8
         },
         {
           "location": "Sines",
@@ -212,9 +212,9 @@
           "imgUrl": "/images/places/sines_1024w.jpg",
           "description": "Lorem ipsum.",
           "currency": "€",
-          "price-one": 12,
-          "price-two": 10,
-          "price-three": null
+          "priceOne": 12,
+          "priceTwo": 10,
+          "priceThree": null
         },
         {
           "location": "Odeceixe",
@@ -222,9 +222,9 @@
           "imgUrl": "/images/places/odeceixe_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "currency": "€",
-          "price-one": 15,
-          "price-two": 12,
-          "price-three": 10
+          "priceOne": 15,
+          "priceTwo": 12,
+          "priceThree": 10
         },
         {
           "location": "Porto Covo",
@@ -232,9 +232,9 @@
           "imgUrl": "/images/places/porto_covo_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper imperdiet orci, rhoncus vestibulum nulla dignissim eu.",
           "currency": "€",
-          "price-one": 18,
-          "price-two": 15,
-          "price-three": 8
+          "priceOne": 18,
+          "priceTwo": 15,
+          "priceThree": 8
         },
         {
           "location": "Sines",
@@ -242,9 +242,9 @@
           "imgUrl": "/images/places/sines_1024w.jpg",
           "description": "Lorem ipsum.",
           "currency": "€",
-          "price-one": 12,
-          "price-two": 10,
-          "price-three": null
+          "priceOne": 12,
+          "priceTwo": 10,
+          "priceThree": null
         },
         {
           "location": "Odeceixe",
@@ -252,9 +252,9 @@
           "imgUrl": "/images/places/odeceixe_1024w.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "currency": "€",
-          "price-one": 15,
-          "price-two": 12,
-          "price-three": 10
+          "priceOne": 15,
+          "priceTwo": 12,
+          "priceThree": 10
         }
       ]
     }

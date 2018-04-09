@@ -1,5 +1,72 @@
-body {
+/* Import font Pacifico from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+/* Import font Cuprum from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+
+body {  
+  display: flex;
+  font-family: 'Cuprum', sans-serif;
+  flex-direction: column;
+  height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+}
+
+header {
+  background-color: #eee;
+  height: 120px;
+  color: #000;
+  font-family: 'Pacifico', cursive;
+}
+
+.header-wrapper {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #8233a1;
+  color: #fff;
+  height: 100px;
+}
+
+.footer-container {
+  max-width: 1260px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer-col {
+  flex-grow: 1;
+}
+
+.travel-agency-logo-footer {
+  filter: grayscale(100%) brightness(300%);
+  -webkit-filter: grayscale(100%) brightness(300%); /* Safari 6.0 - 9.0 */
+  height: 50px;
+}
+
+.contact-info {
+  margin: 10px;
+}
+
+.contact-info p {
+  margin: 0;
+}
+
+.contact-info svg {
+  margin-right: 10px;
+}
+
+.social-media-links {
+  font-size: 30px;
+}
+
+.social-media-links svg {
+  margin: 0px 3px;
+}
+
+.company-logo-footer {
+  justify-content: right;
 }

@@ -1,14 +1,82 @@
-.travel-agency-logo {
-  height: 50px;
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
-.header {
+.travel-agency-logo {
+  height: 100px;
+  margin: 10px;
+}
+
+header {
   background-color: #eee;
-  height: 50px;
-  padding: 0px 10px;
+  box-shadow: 0 0.1rem 0.2rem 0 rgba(0,0,0,.15);
   color: #000;
+  font-family: 'Pacifico', cursive;
+  height: 120px;
+  padding: 0px 10px;
+  position: fixed;
+  width: 100%;
 }
 
 .header-title {
-  font-size: 1.5em;
+  font-size: 2.5em;
+  position: absolute;
+  line-height: 120px;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding-top: 130px;
+}
+
+h2 {
+  align-items: center;
+  display: flex;
+  height: 1px;
+  justify-content: center;
+  padding: 26px 0;
+}
+
+h2 span {
+  background: #fff;
+  margin: 0 15px;
+}
+
+h2:before {
+  background: #dc423b;
+  height: 1px;
+  flex: 1;
+  content: '';
+}
+
+.container .location-title {
+  color: #8233a1;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+
+.section-title {
+  color: #dc423b;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  text-align: right;
+}
+
+.section-content {
+  display: flex;
+}
+
+.card {
+  margin-right: 20px;
+}
+
+.card:last-child {
+  margin-right: 0px;
+}
+
+.card img {
+  width: 100%;
 }

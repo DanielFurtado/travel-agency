@@ -80,3 +80,24 @@ h2:before {
 .card img {
   width: 100%;
 }
+
+.card-price-info-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-price-info {
+  background-color: #eee;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.card-price-info svg {
+  font-size: 10px;
+  margin: 0 2px;
+}
+
+.card-price-text {
+  background-color: #fff;
+  padding: 0 2px;
+}

@@ -1,8 +1,8 @@
 /* Import font Pacifico from Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
 
 /* Import font Cuprum from Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Cuprum');
+@import url("https://fonts.googleapis.com/css?family=Cuprum");
 
 body {  
   display: flex;

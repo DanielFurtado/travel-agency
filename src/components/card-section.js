@@ -1,5 +1,20 @@
 import React, { Component } from 'react';
 
+class CardPriceInfo extends Component {
+  render() {
+    var className = "card-price-info";
+    if(this.props.price === null){
+      className = "card-price-info hidden"
+    }
+    return (
+      <div className={className}>
+        <i className={this.props.icon}></i>
+        <span className="card-price-text">{this.props.price}{this.props.currency}</span>
+      </div>  
+    );
+  }
+}
+
 class Cards extends Component {
   render() {
     return (
@@ -10,24 +25,18 @@ class Cards extends Component {
         <div className="section-content">
           {this.props.product.map(card => (
             <div className="card" key={card.id}>
-              <img src={card.imgUrl} alt={card.location}/>
-              <div className="location-title">{card.location}</div>
-              <div>{card.description}</div>
-              <div className="card-price-info-wrapper">
-                <div className="card-price-info">
-                  <i className="fas fa-user"></i>
-                  <span className="card-price-text">{card.priceOne}{card.currency}</span>
-                </div>
-                <div className="card-price-info">
-                  <i className="fas fa-users"></i>
-                  <span className="card-price-text">{card.priceTwo}{card.currency}</span>
-                </div>
-                <div className="card-price-info">
-                  <i className="fas fa-user-plus"></i>
-                  <span className="card-price-text">{card.priceThree}{card.currency}</span>
-                </div>
+              <div className="image-wrapper">
+                <img src={card.imgUrl} alt={card.location}/>
+                <i className="arrow-up"></i>
               </div>
-              <button>Book Now</button>
+              <div className="card-title">{card.location}</div>
+              <div className="card-description">{card.description}</div>
+              <div className="card-price-info-wrapper">
+                <CardPriceInfo icon="fas fa-user" price={card.priceOne} currency={card.currency} />
+                <CardPriceInfo icon="fas fa-users" price={card.priceTwo} currency={card.currency} />
+                <CardPriceInfo icon="fas fa-user-plus" price={card.priceThree} currency={card.currency} />
+              </div>
+              <button className="btn-book-now">book now</button>
             </div>
           ))}
         </div>

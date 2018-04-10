@@ -18,6 +18,7 @@ header {
   padding: 0px 10px;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 .header-title {
@@ -52,10 +53,17 @@ h2:before {
   content: '';
 }
 
-.container .location-title {
+.card-title {
   color: #8233a1;
   font-family: 'Pacifico', cursive;
   font-size: 20px;
+  text-align: center;
+}
+
+.card-description {
+  font-size: 14px;
+  height: 100px;
+  padding: 10px;
 }
 
 .section-title {
@@ -71,6 +79,79 @@ h2:before {
 
 .card {
   margin-right: 20px;
+  position: relative;
+}
+
+.card:hover {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover .card-price-info-wrapper {
+  visibility: visible;
+}
+
+.card:hover .btn-book-now {
+  visibility: visible;
+}
+
+.card img {
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+.card:hover img {
+  filter: brightness(65%);
+  -webkit-transform: rotate(-7deg) scale(1.2);
+	transform: rotate(-7deg) scale(1.2);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+.arrow-up {
+  bottom: 0; 
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #fff;
+  height: 0;
+  left: 50%;
+  margin-left: -8px;
+  position: absolute;
+  width: 0;
+  z-index: 1;
+}
+
+.card:hover .arrow-up {
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-bottom: 16px solid #fff;
+  margin-left: -16px;
+}
+
+.image-wrapper {
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover .image-wrapper::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00e";
+  color: #fff;
+  font-size: 60px;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  margin: -30px 0 0 -30px;
 }
 
 .card:last-child {
@@ -78,26 +159,45 @@ h2:before {
 }
 
 .card img {
+  height: 100%;
   width: 100%;
 }
 
 .card-price-info-wrapper {
   display: flex;
   justify-content: space-around;
+  padding: 20px 0;
+  visibility: hidden;
 }
 
 .card-price-info {
   background-color: #eee;
-  font-size: 12px;
+  font-size: 16px;
   padding: 2px;
 }
 
 .card-price-info svg {
-  font-size: 10px;
+  font-size: 16px;
+  color: #666;
   margin: 0 2px;
 }
 
 .card-price-text {
   background-color: #fff;
   padding: 0 2px;
+}
+
+.btn-book-now {
+  background-color: #dc423b;
+  border: 0;
+  color: #000;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 1.5em;
+  height: 50px;
+  visibility: hidden;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
 }

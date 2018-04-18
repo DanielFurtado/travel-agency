@@ -15,14 +15,22 @@ class CardPriceInfo extends Component {
   }
 }
 
+class GridButton extends Component {
+  render() {
+    return (
+      <button className="btn-grid" onClick={this.props.handleClick}>
+          <i className={"fas " + this.props.icon}></i>
+      </button>
+    )
+  }
+}
+
 class Cards extends Component {
   render() {
     return (
       <div>
         <h2 className="section-title">
-          <button className="btn-grid">
-            <i className="fas fa-th-list"></i>
-          </button>
+          <GridButton icon="fa-th-list" />
           <span>{this.props.name}</span>
         </h2>
         <div className={"section-content " + this.props.grid}>

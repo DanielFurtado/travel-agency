@@ -29,7 +29,6 @@ header {
 
 .container {
   max-width: 1260px;
-  margin: 0 auto;
   padding: 120px 20px 0;
 }
 
@@ -135,7 +134,7 @@ h2:hover::before {
 }
 
 .flex-1-col .image-wrapper {
-  height: 100%;
+  height: 110px;
   width: 200px;
 }
 
@@ -149,11 +148,17 @@ h2:hover::before {
 
 .flex-1-col .card-description {
   display: inline-block;
+  padding: 2px 0px;
+}
+
+.flex-1-col .card-info-wrapper {
+  padding: 5px 10px;
 }
 
 .flex-1-col .card-price-info-wrapper {
   justify-content: unset;
-  padding: 5px 0;
+  padding: 0;
+  opacity: 1;
 }
 
 .flex-1-col .btn-book-now {
@@ -189,6 +194,10 @@ h2:hover::before {
 
 .card:hover {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.flex-1-col .card:hover {
+  box-shadow: 0 -1px 1px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.12);
 }
 
 .card:hover .card-price-info-wrapper {
@@ -256,6 +265,7 @@ h2:hover::before {
 }
 
 .image-wrapper {
+  height: 200px;
   position: relative;
   overflow: hidden;
 }
@@ -342,6 +352,15 @@ h2:hover .btn-grid {
   position: absolute;
   outline: 0;
   transition: left 0.3s ease;
+}
+
+.btn-grid:hover {
+  background-color: #a5a5a5;
+  border-color: #999;
+}
+
+.btn-grid:hover i {
+  color: #fff;
 }
 
 .hidden {

@@ -30,7 +30,7 @@ header {
 .container {
   max-width: 1260px;
   margin: 0 auto;
-  padding-top: 130px;
+  padding: 120px 20px 0;
 }
 
 h2 {
@@ -38,8 +38,16 @@ h2 {
   display: flex;
   height: 1px;
   justify-content: center;
-  padding: 26px 0;
+  overflow: hidden;
+  padding: 30px 0px 30px 0px;
+  position: relative;
+  transition: padding 0.3s ease;
 }
+
+h2:hover {
+  padding: 30px 0px 30px 45px;
+}
+
 
 h2 span {
   background: #fff;
@@ -53,17 +61,27 @@ h2:before {
   content: '';
 }
 
+h2:hover::before {
+  background: #bb2c26;
+}
+
+.card-info-wrapper {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+}
+
 .card-title {
   color: #8233a1;
   font-family: 'Pacifico', cursive;
-  font-size: 20px;
+  font-size: 26px;
   text-align: center;
 }
 
 .card-description {
   font-size: 14px;
-  height: 100px;
-  padding: 10px;
+  padding: 2px 0 20px 0;
+  flex-grow: 1;
 }
 
 .section-title {
@@ -75,24 +93,110 @@ h2:before {
 
 .section-content {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.card-wrapper {
+  box-sizing: border-box;
+  margin-right: 1.25%;
+  position: relative;
+}
+
+.card-wrapper:last-child {
+  margin-right: 0;
+}
+
+.card-wrapper:before,
+.card-wrapper:after {
+    content: " ";
+    display: table;
+}
+
+.card-wrapper:after {
+    clear: both;
+}
+
+.flex-5-cols .card-wrapper {
+  position: relative;
+  width: 19%;
+}
+
+.flex-5-cols .card {
+  flex-direction: column;
+}
+
+.flex-5-cols .card-info-wrapper {
+  flex-grow: 1;
+}
+
+.flex-1-col .card-wrapper {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.flex-1-col .image-wrapper {
+  height: 100%;
+  width: 200px;
+}
+
+.flex-1-col .card {
+  width: 100%;
+}
+
+.flex-1-col .card-title {
+  text-align: left;
+}
+
+.flex-1-col .card-description {
+  display: inline-block;
+}
+
+.flex-1-col .card-price-info-wrapper {
+  justify-content: unset;
+  padding: 5px 0;
+}
+
+.flex-1-col .btn-book-now {
+  width: 15%;
+  position: absolute;
+  right: 0;
+  height: 40%;
+  top: 30%;
+  opacity: 1;
+}
+
+.flex-1-col .card:hover .btn-book-now {
+  height: 100%;
+  top: 0;
+}
+
+.flex-1-col .arrow-up {
+  visibility: hidden;
+}
+
+.flex-1-col .arrow-right {
+  visibility: visible;
 }
 
 .card {
-  margin-right: 20px;
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
   position: relative;
+  transition: box-shadow .2s ease-in-out;
+  box-shadow: none;
 }
 
 .card:hover {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .card:hover .card-price-info-wrapper {
-  visibility: visible;
+  opacity: 1;
 }
 
 .card:hover .btn-book-now {
-  visibility: visible;
+  opacity: 1;
 }
 
 .card img {
@@ -130,8 +234,28 @@ h2:before {
   margin-left: -16px;
 }
 
+.arrow-right {
+  bottom: 50%; 
+  border-top: 8px solid transparent;
+  border-right: 8px solid #fff;
+  border-bottom: 8px solid transparent;
+  height: 0;
+  right: 0;
+  margin-bottom: -8px;
+  position: absolute;
+  width: 0;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.card:hover .arrow-right {
+  border-top: 16px solid transparent;
+  border-right: 16px solid #fff;
+  border-bottom: 16px solid transparent;
+  margin-bottom: -16px;
+}
+
 .image-wrapper {
-  height: 50%;
   position: relative;
   overflow: hidden;
 }
@@ -154,10 +278,6 @@ h2:before {
   margin: -30px 0 0 -30px;
 }
 
-.card:last-child {
-  margin-right: 0px;
-}
-
 .card img {
   height: 100%;
   width: 100%;
@@ -166,8 +286,13 @@ h2:before {
 .card-price-info-wrapper {
   display: flex;
   justify-content: space-around;
-  padding: 20px 0;
-  visibility: hidden;
+  padding: 10px 0;
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
+
+.flex-1-col .card-price-info {
+  margin-right: 10px;
 }
 
 .card-price-info {
@@ -194,8 +319,29 @@ h2:before {
   font-family: 'Cuprum', sans-serif;
   font-size: 1.5em;
   height: 50px;
-  visibility: hidden;
+  opacity: 0;
   width: 100%;
+  transition: all 0.2s ease;
+}
+
+.btn-book-now:hover {
+  color: #fff;
+}
+
+h2:hover .btn-grid {
+  left: 0;
+}
+
+.btn-grid {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 16px;
+  left: -40px;
+  padding: 8px;
+  position: absolute;
+  outline: 0;
+  transition: left 0.3s ease;
 }
 
 .hidden {

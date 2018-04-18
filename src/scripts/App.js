@@ -16,9 +16,9 @@ class App extends Component {
           </div>
         </header>
         <div className="container">
-          <Cards product={data.products[0].featured} name="Featured"/>
-          <Cards product={data.products[0].algarve} name="Algarve"/>
-          <Cards product={data.products[0].alentejo} name="Alentejo"/>
+          <Cards product={data.products[0].featured} name="Featured" grid="flex-5-cols"/>
+          <Cards product={data.products[0].algarve} name="Algarve" grid="flex-1-col"/>
+          <Cards product={data.products[0].alentejo} name="Alentejo" grid="flex-1-col"/>
         </div>
         <Footer />      
       </div>

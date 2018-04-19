@@ -1,0 +1,70 @@
+.flex-5-cols {
+  .card-wrapper {
+    position: relative;
+    width: 19%;
+    margin-bottom: 20px;
+    &:nth-child(5n+5) {
+      margin-right: 0;
+    }
+    .card {
+      flex-direction: column;
+      .card-info-wrapper {
+        flex-grow: 1;
+      }
+    }
+  }
+}
+
+.flex-1-col {
+  .card-wrapper {
+    margin-bottom: 20px;
+    width: 100%;
+    .card {
+      width: 100%;
+      &:hover {
+        box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.12);
+        .btn-book-now {
+          height: 100%;
+          top: 0;
+        }
+      }
+      .card-title {
+        text-align: left;
+      }
+      .card-description {
+        display: inline-block;
+        padding: 2px 0px;
+      }
+      .card-info-wrapper {
+        padding: 5px 10px;
+      }
+      .card-price-info-wrapper {
+        justify-content: unset;
+        padding: 0;
+        opacity: 1;
+        .card-price-info {
+          margin-right: 10px;
+        }
+      }
+      .image-wrapper {
+        height: 110px;
+        width: 200px;
+      }
+      .arrow-up {
+        visibility: hidden;
+      }
+      .arrow-right {
+        visibility: visible;
+      }
+      .btn-book-now {
+        width: 15%;
+        position: absolute;
+        right: 0;
+        height: 40%;
+        top: 30%;
+        opacity: 1;
+        transition: all 0.2s ease;
+      }
+    }
+  }
+}

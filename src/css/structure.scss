@@ -1,0 +1,127 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+body {  
+  display: flex;
+  font-family: 'Cuprum', sans-serif;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #eee;
+  box-shadow: 0 0.1rem 0.2rem 0 rgba(0,0,0,.15);
+  color: #000;
+  font-family: 'Pacifico', cursive;
+  height: 120px;
+  padding: 0 20px;
+  position: fixed;
+  transition: all 0.1s ease-out;
+  width: 100%;
+  z-index: 2;
+
+  .header-wrapper {
+    max-width: 1260px;
+    margin: 0 auto;
+  }
+
+  .header-title {
+    font-size: 2.5em;
+    position: absolute;
+    line-height: 120px;
+    transition: all 0.1s ease-out;
+  }
+
+  .travel-agency-logo {
+    height: 100px;
+    margin: 10px 0;
+    transition: all 0.1s ease-out;
+  }
+
+  &.shrink {
+    height: 70px;
+    animation: shrink 1s step-start 0s 1;
+    -webkit-animation: shrink 1s step-start 0s 1;
+
+    .header-title {
+      font-size: 1.5em;
+      line-height: 70px;
+    }
+
+    .travel-agency-logo {
+      height: 60px;
+      margin: 5px 10px 5px 0px;
+    }
+  }
+
+  @keyframes shrink {
+    50% {
+      background-color: #ccc;
+    }
+  }
+  @-webkit-keyframes shrink {
+    50% {
+      background-color: #ccc;
+    }
+  }
+}
+
+.container {
+  max-width: 1260px;
+  padding: 120px 20px 0;
+  margin: 0 auto;
+}
+
+.section-title {
+  align-items: center;
+  color: #dc423b;
+  display: flex;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  height: 1px;
+  justify-content: center;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 30px 0px 30px 0px;
+  position: relative;
+  text-align: right;
+  transition: padding 0.3s ease;
+  &:hover {
+    padding: 30px 0px 30px 45px;
+  }
+  span {
+    background: #fff;
+    margin: 0 15px;
+  }
+  &:before {
+    background: #dc423b;
+    height: 1px;
+    flex: 1;
+    content: '';
+  }
+  &:hover {
+    &::before {
+      background: #bb2c26;
+    }
+    .btn-grid {
+      left: 0;
+    }
+  }
+  &:first-child {
+    margin-top: 20px;
+  }
+}
+
+.section-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hidden {
+  display: none;
+}

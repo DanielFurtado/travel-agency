@@ -15,30 +15,37 @@ class CardPriceInfo extends Component {
   }
 }
 
-class GridButton extends Component {
-  render() {
-    return (
-      <button className="btn-grid" onClick={this.props.handleClick}>
-          <i className={"fas " + this.props.icon}></i>
-      </button>
-    )
-  }
-}
-
 class Cards extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { 
+      list: this.props.list
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    this.setState(prevState => ({
+      list: !prevState.list
+    }));
+  }
+
   render() {
     return (
       <div>
         <h2 className="section-title">
-          <GridButton icon="fa-th-list" />
+          <button className="btn-grid" onClick={this.handleClick}>
+            <i className={this.state.list ? "fas fa-th-large" : "fas fa-th-list"}></i>
+          </button>
           <span>{this.props.name}</span>
         </h2>
-        <div className={"section-content " + this.props.grid}>
+        <div className={this.state.list ? "section-content flex-1-col" : "section-content flex-5-cols"}>
           {this.props.product.map(card => (
             <div className="card-wrapper" key={card.id}>
               <div className="card">
                 <div className="image-wrapper">
-                  <img src={card.imgUrl} alt={card.location}/>
+                  <i className="fas fa-search-plus"></i>
+                  <img className="card-image" src={card.imgUrl} alt={card.location}/>
                   <i className="arrow-right"></i>
                   <i className="arrow-up"></i>
                 </div>

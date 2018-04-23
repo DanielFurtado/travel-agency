@@ -6,7 +6,36 @@ import '../css/index.css';
 import data from '../mockups/products.json';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      products: [
+        {
+         product: data.featured, 
+         name: "Featured", 
+         list: false 
+        },
+        {
+          product: data.algarve, 
+          name: "Algarve", 
+          list: true 
+        },
+        {
+          product: data.alentejo, 
+          name: "Alentejo", 
+          list: true 
+        }
+      ]
+    };
+  }
+
   render() {
+    let section = this.state.products.map(function(section) {
+      return(
+        <Cards key={section.name} product={section.product} name={section.name} list={section.list}/>
+      );
+    });
+
     return (
       <div className="app">
         <header id="header" className="header">
@@ -15,11 +44,9 @@ class App extends Component {
             <span className="header-title">Travel Agency</span>
           </div>
         </header>
-        <div className="container">
-          <Cards product={data.products[0].featured} name="Featured" list={false}/>
-          <Cards product={data.products[0].algarve} name="Algarve" list={true}/>
-          <Cards product={data.products[0].alentejo} name="Alentejo" list={true}/>
-        </div>
+        <main className="container">
+          {section}
+        </main>
         <Footer />      
       </div>
     );

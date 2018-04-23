@@ -2,14 +2,14 @@
   background-color: #dc423b;
   border: 0;
   color: #000;
+  cursor: pointer;
   font-family: 'Cuprum', sans-serif;
   font-size: 1.5em;
   height: 50px;
   opacity: 0;
   outline: 0;
   width: 100%;
-  transition: color 0.2s ease;
-
+  transition: height 0.2s ease, top 0.2s ease, color 0.2s ease, opacity 0.2s ease;
   &:hover {
     color: #fff;
   }

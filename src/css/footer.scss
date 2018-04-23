@@ -1,36 +1,68 @@
 footer {
-  background-color: #8233a1;
-  color: #fff;
-  height: 100px;
+  padding: 0 20px;
+  background-color: #672a96;
   .footer-container {
+    align-items: center;
+    box-sizing: border-box;
+    color: #fff;
     max-width: 1260px;
     margin: 0 auto;
     display: flex;
+    height: 170px;
   }
   .footer-col {
     flex-grow: 1;
   }
   .contact-info {
-    margin: 10px;
+    .row{
+      display: table;
+      .col {
+        display:table-cell;
+        &.icon-col {
+          padding: 10px;
+        }
+      }
+    }
     p {
       margin: 0;
+      line-height: 22px;
     }
     svg {
       margin-right: 10px;
     }
   }
   .social-media-links {
-    font-size: 30px; 
+    text-align: center;
+    .icon-button {
+      border: 0;
+      cursor: pointer;
+      font-size: 20px;
+      color: #672a96;
+      background-color: #fff;
+      height: 30px;
+      line-height: 30px;
+      margin: 4px;
+      outline: 0;
+      padding: 0;
+      text-align: center;
+      width: 30px;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        background-color: #dc423b;
+        color: #fff;
+      }
+    }
     svg {
       margin: 0px 3px;
     }
   }
   .company-logo-footer {
-    justify-content: right;
+    text-align: right;
+
     .travel-agency-logo-footer {
       filter: grayscale(100%) brightness(300%);
       -webkit-filter: grayscale(100%) brightness(300%); /* Safari 6.0 - 9.0 */
-      height: 50px;
+      height: 100px;
     }
   }
 }

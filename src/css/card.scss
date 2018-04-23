@@ -1,6 +1,5 @@
 .card-wrapper {
   box-sizing: border-box;
-  margin-right: 1.25%;
   position: relative;
   &:before {
     content: " ";
@@ -17,7 +16,7 @@
     height: 100%;
     margin: 0 auto;
     position: relative;
-    transition: box-shadow .2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
     box-shadow: none;
     
     &:hover {
@@ -33,7 +32,7 @@
         .card-image {
           filter: brightness(65%);
           transform: rotate(-7deg) scale(1.2);
-          transition: .2s ease-in-out;
+          transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
         }
       }
       
@@ -70,16 +69,21 @@
           
         }
       }
+
+      .card-info-wrapper {
+        .card-title {
+          color: #953fb7;
+        }
+      }
     }
       
     .image-wrapper {
       height: 200px;
       position: relative;
       overflow: hidden;
-
       .card-image {
         transform: rotate(0) scale(1);
-        transition: .2s ease-in-out;
+        transition: transform 0.2s ease-in-out;
         height: 100%;
         width: 100%;
       }
@@ -122,9 +126,10 @@
       padding: 10px;
   
       .card-title {
-        color: #8233a1;
+        color: #672a96;
         font-family: 'Pacifico', cursive;
         font-size: 26px;
+        line-height: 36px;
         text-align: center;
       }
         
@@ -140,7 +145,7 @@
       justify-content: space-around;
       padding: 10px 0;
       opacity: 0;
-      transition: opacity .2s ease-in-out;
+      transition: opacity 0.2s ease-in-out;
 
       .card-price-info {
         background-color: #eee;

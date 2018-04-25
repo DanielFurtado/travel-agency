@@ -19,12 +19,22 @@
   background-color: #eee;
   border: 1px solid #ccc;
   cursor: pointer;
-  font-size: 16px;
+  height: 36px;
+  line-height: 22px;
   left: -40px;
   padding: 8px;
   position: absolute;
   outline: 0;
   transition: left 0.3s ease;
+  width: 36px;
+
+  .fa-th-large {
+    font-size: 17px;
+  }
+
+  .fa-th-list {
+    font-size: 16px;
+  }
   
   &:hover {
     background-color: #a5a5a5;

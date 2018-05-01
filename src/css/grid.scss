@@ -73,6 +73,59 @@
       }
     }
   }
+  .app {
+    .header {
+      position: initial;
+      height: 250px;
+      &.shrink {
+        height: unset;
+        animation: none;
+      }
+      .header-wrapper {
+        position: relative;
+        height: unset;
+        padding: 20px 20px 0;
+        .travel-agency-logo {
+          display: block;
+          height: 150px;
+          margin: 0 auto;
+        }
+        .header-title {
+          display: block;
+          font-size: 2.5em;
+          line-height: 80px;
+          text-align: center;
+          position: inherit;
+          top: -10px;
+        }
+      }
+    }
+    .container {
+      padding-top: 0;
+    }
+    .footer-container {
+      align-items: left;
+      display: flex;
+      flex-direction: column;
+      height: 240px;
+      padding: 30px 20px 0;
+      position: relative;
+      .footer-col {
+        flex-grow: unset;
+      }
+      .contact-info {
+        margin-bottom: 20px;
+      }
+      .company-logo-footer {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        .travel-agency-logo-footer {
+          height: 80px;
+        }
+      }
+    }
+  }
 }
 
 .flex-1-col {

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Section from '../components/section';
 import resizeHeader from '../components/resize-header';
-import WindowWidth from '../components/window-width';
 import '../css/index.css';
 
 class Main extends Component {
@@ -40,7 +39,6 @@ class Main extends Component {
     return (
       <main className="container">
         {this.state.sections}
-        <WindowWidth />
       </main>
     )
   }

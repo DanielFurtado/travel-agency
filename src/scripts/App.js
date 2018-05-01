@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import logo from '../images/logo/logo_large.png';
-import Cards from '../components/card-section';
+import Section from '../components/section';
 import Footer from '../components/footer';
+import resizeHeader from '../components/resize-header';
+import WindowWidth from '../components/window-width';
 import '../css/index.css';
 
 class App extends Component {
@@ -25,7 +27,7 @@ class App extends Component {
     .then(data => {
         let sections = data.products.map(section => {
           return(
-            <Cards key={section.name} product={section.items} name={section.name} list={section.list}/>
+            <Section key={section.name} product={section.items} name={section.name} list={section.list}/>
           );
         });
       self.setState({sections: sections});
@@ -33,6 +35,7 @@ class App extends Component {
     .catch(function(err) {
     console.log('Fetch Error :-S', err);
     });
+    window.addEventListener("scroll", resizeHeader);
   }
 
   render() {
@@ -47,24 +50,11 @@ class App extends Component {
         <main className="container">
           {this.state.sections}
         </main>
-        <Footer />      
+        <Footer /> 
+        <WindowWidth />     
       </div>
     );
   }
 }
-
-function resizeHeaderOnScroll() {
-  const distanceY = window.pageYOffset || document.documentElement.scrollTop,
-        shrinkOn = 300,
-        header = document.getElementById("header");
-  
-  if (distanceY > shrinkOn) {
-    header.classList.add("shrink");
-  } else {
-    header.classList.remove("shrink");
-  }
-}
-
-window.addEventListener("scroll", resizeHeaderOnScroll);
 
 export default App;

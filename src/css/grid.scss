@@ -60,6 +60,21 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .flex-5-cols {
+    .card-wrapper {
+      max-width: 212px;
+      margin: 0 14px 20px 0;
+      &:nth-child(odd) {
+        margin-right: 14px;
+      }
+      &:nth-child(even) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
 .flex-1-col {
   .card-wrapper {
     margin-bottom: 20px;

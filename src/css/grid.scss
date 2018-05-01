@@ -60,6 +60,16 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  h2 {
+    &.section-title{
+      &:hover {
+        padding: 30px 0 30px 0;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 480px) {
   .flex-5-cols {
     .card-wrapper {

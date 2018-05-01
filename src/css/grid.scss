@@ -1,8 +1,8 @@
 .flex-5-cols {
   .card-wrapper {
     position: relative;
-    margin: 0 16px 20px 0;
-    max-width: 235px;
+    margin: 0 15px 20px 0;
+    max-width: 232px;
     &:nth-child(5n+5) {
       margin-right: 0;
     }
@@ -15,24 +15,24 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1259px) {
   .flex-5-cols {
     .card-wrapper {
-      max-width: 230px;
-      &:nth-child(4n+4) {
-        margin-right: 0;
-      }
+      margin: 0 16px 20px 0;
+      max-width: 234px;
       &:nth-child(5n+5) {
         margin-right: 16px;
+      }
+      &:nth-child(4n+4) {
+        margin-right: 0;
       }
     }
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .flex-5-cols {
     .card-wrapper {
-      max-width: 230px;
       &:nth-child(3n+3) {
         margin-right: 0;
       }
@@ -47,6 +47,15 @@
   footer {
     .social-media-links {
       text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: 1015px) {
+  .flex-5-cols {
+    .card-wrapper {
+      max-width: 232px;
+      margin: 0 16px 20px 0;
     }
   }
 }
@@ -93,10 +102,10 @@
         min-width: 200px;
       }
       .arrow-up {
-        visibility: hidden;
+        display: none;
       }
       .arrow-right {
-        visibility: visible;
+        display: inline-block;
       }
       .btn-book-now {
         width: 180px;

@@ -116,7 +116,7 @@
       position: absolute;
       transition: all 0.2s ease;
       width: 0;
-      visibility: hidden;
+      display: none;
       z-index: 1;
     }
   
@@ -131,6 +131,7 @@
         font-size: 26px;
         line-height: 36px;
         text-align: center;
+        transition: all 0.2s ease-in-out;
       }
         
       .card-description {

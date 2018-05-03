@@ -30,27 +30,31 @@ class Section extends Component {
     }
   }
 
-  render() { 
+  render() {
+    if(this.props.product) {
+      var Cards = this.props.product.map(card => (
+        <Card 
+          key={card.id} 
+          cardId={card.id}
+          cardImg={card.imgUrl}
+          cardLocation={card.location}
+          cardDescription={card.description}
+          cardCurrency={card.currency}
+          cardPriceOne={card.priceOne}
+          cardPriceTwo={card.priceTwo}
+          cardPriceThree={card.priceThree}
+        /> 
+      ))
+    }
+
     return (
       <article>
         <h2 className="section-title">
           {this.state.grid ? <GridButton list={this.state.list} onClick={this.handleClick}/> : null}
           <span>{this.props.name}</span>
         </h2>
-        <section className={this.state.grid && this.state.list ? "section-content flex-1-col" : "section-content flex-5-cols"}>
-          {this.props.product.map(card => (
-            <Card 
-              key={card.id} 
-              cardId={card.id}
-              cardImg={card.imgUrl}
-              cardLocation={card.location}
-              cardDescription={card.description}
-              cardCurrency={card.currency}
-              cardPriceOne={card.priceOne}
-              cardPriceTwo={card.priceTwo}
-              cardPriceThree={card.priceThree}
-            /> 
-          ))}
+        <section className={this.state.grid && this.state.list ? "section-content list-view" : "section-content card-view"}>
+          {Cards}
         </section>
       </article>
     );

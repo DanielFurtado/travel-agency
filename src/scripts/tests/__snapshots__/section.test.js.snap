@@ -1,0 +1,743 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="card"
+>
+        <div
+                className="image-wrapper"
+        >
+                <i
+                        className="fas fa-search-plus"
+                />
+                <img
+                        alt={undefined}
+                        className="card-image"
+                        src={undefined}
+                />
+                <i
+                        className="arrow-right"
+                />
+                <i
+                        className="arrow-up"
+                />
+        </div>
+        <div
+                className="card-info-wrapper"
+        >
+                <div
+                        className="card-title"
+                />
+                <div
+                        className="card-description"
+                />
+                <CardPrice />
+        </div>
+        <BookNowButton
+                id={undefined}
+        />
+</div>,
+      "className": "card-wrapper",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="image-wrapper"
+>
+            <i
+                        className="fas fa-search-plus"
+            />
+            <img
+                        alt={undefined}
+                        className="card-image"
+                        src={undefined}
+            />
+            <i
+                        className="arrow-right"
+            />
+            <i
+                        className="arrow-up"
+            />
+</div>,
+          <div
+            className="card-info-wrapper"
+>
+            <div
+                        className="card-title"
+            />
+            <div
+                        className="card-description"
+            />
+            <CardPrice />
+</div>,
+          <BookNowButton
+            id={undefined}
+/>,
+        ],
+        "className": "card",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <i
+                className="fas fa-search-plus"
+/>,
+              <img
+                alt={undefined}
+                className="card-image"
+                src={undefined}
+/>,
+              <i
+                className="arrow-right"
+/>,
+              <i
+                className="arrow-up"
+/>,
+            ],
+            "className": "image-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "fas fa-search-plus",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": undefined,
+                "className": "card-image",
+                "src": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "arrow-right",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "arrow-up",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="card-title"
+/>,
+              <div
+                className="card-description"
+/>,
+              <CardPrice />,
+            ],
+            "className": "card-info-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "card-title",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "card-description",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "id": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="card"
+>
+          <div
+                    className="image-wrapper"
+          >
+                    <i
+                              className="fas fa-search-plus"
+                    />
+                    <img
+                              alt={undefined}
+                              className="card-image"
+                              src={undefined}
+                    />
+                    <i
+                              className="arrow-right"
+                    />
+                    <i
+                              className="arrow-up"
+                    />
+          </div>
+          <div
+                    className="card-info-wrapper"
+          >
+                    <div
+                              className="card-title"
+                    />
+                    <div
+                              className="card-description"
+                    />
+                    <CardPrice />
+          </div>
+          <BookNowButton
+                    id={undefined}
+          />
+</div>,
+        "className": "card-wrapper",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="image-wrapper"
+>
+              <i
+                            className="fas fa-search-plus"
+              />
+              <img
+                            alt={undefined}
+                            className="card-image"
+                            src={undefined}
+              />
+              <i
+                            className="arrow-right"
+              />
+              <i
+                            className="arrow-up"
+              />
+</div>,
+            <div
+              className="card-info-wrapper"
+>
+              <div
+                            className="card-title"
+              />
+              <div
+                            className="card-description"
+              />
+              <CardPrice />
+</div>,
+            <BookNowButton
+              id={undefined}
+/>,
+          ],
+          "className": "card",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fas fa-search-plus"
+/>,
+                <img
+                  alt={undefined}
+                  className="card-image"
+                  src={undefined}
+/>,
+                <i
+                  className="arrow-right"
+/>,
+                <i
+                  className="arrow-up"
+/>,
+              ],
+              "className": "image-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-search-plus",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": undefined,
+                  "className": "card-image",
+                  "src": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "arrow-right",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "arrow-up",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="card-title"
+/>,
+                <div
+                  className="card-description"
+/>,
+                <CardPrice />,
+              ],
+              "className": "card-info-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "card-title",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "card-description",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "id": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`GridButton renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <GridButton />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <i
+        className="fas fa-th-list"
+/>,
+      "className": "btn-grid",
+      "onClick": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "className": "fas fa-th-list",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "i",
+    },
+    "type": "button",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <i
+          className="fas fa-th-list"
+/>,
+        "className": "btn-grid",
+        "onClick": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "fas fa-th-list",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "i",
+      },
+      "type": "button",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Section renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Section />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2
+          className="section-title"
+>
+          <GridButton
+                    list={undefined}
+                    onClick={[Function]}
+          />
+          <span />
+</h2>,
+        <section
+          className="section-content card-view"
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <GridButton
+              list={undefined}
+              onClick={[Function]}
+/>,
+            <span />,
+          ],
+          "className": "section-title",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "list": undefined,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": "section-content card-view",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "section",
+      },
+    ],
+    "type": "article",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="section-title"
+>
+            <GridButton
+                        list={undefined}
+                        onClick={[Function]}
+            />
+            <span />
+</h2>,
+          <section
+            className="section-content card-view"
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <GridButton
+                list={undefined}
+                onClick={[Function]}
+/>,
+              <span />,
+            ],
+            "className": "section-title",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "list": undefined,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "section-content card-view",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "section",
+        },
+      ],
+      "type": "article",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from '../images/logo/logo_large.png';
 
-class Header extends Component {
-  render() {
+const Header = () => {
     return (
       <header id="header" className="header">
         <div className="header-wrapper">
@@ -11,7 +10,6 @@ class Header extends Component {
         </div>
       </header>
     )
-  }
 }
 
 export default Header;

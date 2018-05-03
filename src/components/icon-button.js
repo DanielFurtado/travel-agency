@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class IconButton extends Component {
-  render() {
-    return (
-      <button className="icon-button">
-        <i className={this.props.iconClass}></i>
-      </button>
-    ) 
-  }
+const IconButton = (props) => {
+  return (
+    <button className="icon-button">
+      <i className={props.iconClass}></i>
+    </button>
+  )
 }
 
 export default IconButton;

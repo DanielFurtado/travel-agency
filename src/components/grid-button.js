@@ -1,13 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class GridButton extends Component {
-  render() {
-    return (
-      <button className="btn-grid" onClick={this.props.onClick}>
-        <i className={this.props.list ? "fas fa-th-large" : "fas fa-th-list"}></i>
-      </button>
-    )
-  }
+const GridButton = (props) => {
+  return (
+    <button className="btn-grid" onClick={props.onClick}>
+      <i className={props.list ? "fas fa-th-large" : "fas fa-th-list"}></i>
+    </button>
+  )
 }
 
 export default GridButton;

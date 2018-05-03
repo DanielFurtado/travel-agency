@@ -1,4 +1,4 @@
-export default function resizeHeader() {
+function resizeHeader() {
   const distanceY = window.pageYOffset || document.documentElement.scrollTop,
         shrinkOn = 300,
         header = document.getElementById("header");
@@ -9,3 +9,5 @@ export default function resizeHeader() {
     header.classList.remove("shrink");
   }
 }
+
+export default resizeHeader;

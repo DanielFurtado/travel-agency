@@ -1,26 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from '../images/logo/logo_large.png';
 import ContactInfo from '../components/contact-info';
 import SocialMedia from '../components/social-media';
 
-class Footer extends Component {
-  render() {
-    return (
-      <footer>
-        <div className="footer-container">
-          <address className="contact-info footer-col">
-            <ContactInfo />
-          </address>
-          <div className="social-media-links footer-col">
-            <SocialMedia />
-          </div>
-          <div className="company-logo-footer footer-col">
-            <img src={logo} className="travel-agency-logo-footer" alt="Travel Agency Logo BW" />
-          </div>
+const Footer = () => {
+  return (
+    <footer>
+      <div className="footer-container">
+        <address className="contact-info footer-col">
+          <ContactInfo />
+        </address>
+        <div className="social-media-links footer-col">
+          <SocialMedia />
         </div>
-      </footer>
-    )  
-  }
+        <div className="company-logo-footer footer-col">
+          <img src={logo} className="travel-agency-logo-footer" alt="Travel Agency Logo BW" />
+        </div>
+      </div>
+    </footer>
+  )  
 }
 
 export default Footer;

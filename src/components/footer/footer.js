@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from '../images/logo/logo_large.png';
-import ContactInfo from '../components/contact-info';
-import SocialMedia from '../components/social-media';
+import logo from '../../images/logo/logo_large.png';
+import ContactInfo from './contact-info';
+import SocialMedia from './social-media';
 
 const Footer = () => {
   return (

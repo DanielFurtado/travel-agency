@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ContactInfoRow from '../components/contact-info-row';
+import ContactInfoRow from './contact-info-row';
 
 class ContactInfo extends Component {
   constructor(props) {

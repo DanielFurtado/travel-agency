@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import GridButton from '../components/grid-button';
-import Card from '../components/card';
+import GridButton from './buttons/grid-button';
+import Card from './card/card';
 
 class Section extends Component {
   constructor(props) {

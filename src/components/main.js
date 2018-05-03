@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Section from '../components/section';
-import resizeHeader from '../components/resize-header';
+import Section from './section';
+import resizeHeader from './resize-header';
 import '../css/index.css';
+import fetch from 'isomorphic-fetch';
 
 class Main extends Component {
   constructor(props) {
@@ -13,7 +14,7 @@ class Main extends Component {
 
   componentDidMount() {
     let self = this;
-    fetch("/api/products")
+    fetch("http://localhost:3000/api/products")
     .then(response => {
       if (response.status !== 200) {
         console.log("Looks like there was a problem. Status Code: " + response.status);

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import IconButton from '../components/icon-button';
+import IconButton from '../buttons/icon-button';
 
 class SocialMedia extends Component {
   constructor(props) {

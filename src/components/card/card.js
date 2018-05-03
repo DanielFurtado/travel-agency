@@ -1,6 +1,6 @@
 import React from 'react';
-import CardPrice from '../components/card-price';
-import BookNowButton from '../components/book-now-button';
+import CardPrice from './card-price';
+import BookNowButton from '../buttons/book-now-button';
 
 const Card = (props) => {
   return (

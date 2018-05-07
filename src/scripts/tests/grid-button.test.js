@@ -9,3 +9,9 @@ describe('GridButton', () => {
     expect(gridButton).toMatchSnapshot();
   });
 });
+
+describe('when clicking the grid button', () => {
+  beforeEach(() => {
+    GridButton.find('.btn-grid').simulate('click');
+  });  
+});

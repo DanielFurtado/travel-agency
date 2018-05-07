@@ -30,7 +30,7 @@ class Main extends Component {
         });
       self.setState({sections: sections});
     })
-    .catch(function(err) {
+    .catch(err => {
     console.log('Fetch Error :-S', err);
     });
     window.addEventListener("scroll", resizeHeader);

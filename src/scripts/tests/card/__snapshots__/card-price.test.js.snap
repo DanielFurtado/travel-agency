@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardPrice renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CardPrice />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <CardPriceDetails
+          currency={undefined}
+          icon="fas fa-user"
+          price={undefined}
+/>,
+        <CardPriceDetails
+          currency={undefined}
+          icon="fas fa-users"
+          price={undefined}
+/>,
+        <CardPriceDetails
+          currency={undefined}
+          icon="fas fa-user-plus"
+          price={undefined}
+/>,
+      ],
+      "className": "card-price-info-wrapper",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "priceOne",
+        "nodeType": "function",
+        "props": Object {
+          "currency": undefined,
+          "icon": "fas fa-user",
+          "price": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "priceTwo",
+        "nodeType": "function",
+        "props": Object {
+          "currency": undefined,
+          "icon": "fas fa-users",
+          "price": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "priceThree",
+        "nodeType": "function",
+        "props": Object {
+          "currency": undefined,
+          "icon": "fas fa-user-plus",
+          "price": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <CardPriceDetails
+            currency={undefined}
+            icon="fas fa-user"
+            price={undefined}
+/>,
+          <CardPriceDetails
+            currency={undefined}
+            icon="fas fa-users"
+            price={undefined}
+/>,
+          <CardPriceDetails
+            currency={undefined}
+            icon="fas fa-user-plus"
+            price={undefined}
+/>,
+        ],
+        "className": "card-price-info-wrapper",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "priceOne",
+          "nodeType": "function",
+          "props": Object {
+            "currency": undefined,
+            "icon": "fas fa-user",
+            "price": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "priceTwo",
+          "nodeType": "function",
+          "props": Object {
+            "currency": undefined,
+            "icon": "fas fa-users",
+            "price": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "priceThree",
+          "nodeType": "function",
+          "props": Object {
+            "currency": undefined,
+            "icon": "fas fa-user-plus",
+            "price": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

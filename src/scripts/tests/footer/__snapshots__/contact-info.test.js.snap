@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactInfo renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ContactInfo />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ContactInfoRow
+          icon="fa-building"
+          text="Str. Mouzinho de Albuquerque"
+          text2="8000-000 Faro"
+/>,
+        <ContactInfoRow
+          icon="fa-phone"
+          text="+351 289 123 456"
+          text2={undefined}
+/>,
+        <ContactInfoRow
+          icon="fa-envelope"
+          text="info@travelagency.com"
+          text2={undefined}
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "address",
+        "nodeType": "function",
+        "props": Object {
+          "icon": "fa-building",
+          "text": "Str. Mouzinho de Albuquerque",
+          "text2": "8000-000 Faro",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "phone",
+        "nodeType": "function",
+        "props": Object {
+          "icon": "fa-phone",
+          "text": "+351 289 123 456",
+          "text2": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "email",
+        "nodeType": "function",
+        "props": Object {
+          "icon": "fa-envelope",
+          "text": "info@travelagency.com",
+          "text2": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ContactInfoRow
+            icon="fa-building"
+            text="Str. Mouzinho de Albuquerque"
+            text2="8000-000 Faro"
+/>,
+          <ContactInfoRow
+            icon="fa-phone"
+            text="+351 289 123 456"
+            text2={undefined}
+/>,
+          <ContactInfoRow
+            icon="fa-envelope"
+            text="info@travelagency.com"
+            text2={undefined}
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "address",
+          "nodeType": "function",
+          "props": Object {
+            "icon": "fa-building",
+            "text": "Str. Mouzinho de Albuquerque",
+            "text2": "8000-000 Faro",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "phone",
+          "nodeType": "function",
+          "props": Object {
+            "icon": "fa-phone",
+            "text": "+351 289 123 456",
+            "text2": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "email",
+          "nodeType": "function",
+          "props": Object {
+            "icon": "fa-envelope",
+            "text": "info@travelagency.com",
+            "text2": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

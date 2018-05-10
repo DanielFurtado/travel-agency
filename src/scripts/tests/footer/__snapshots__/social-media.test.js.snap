@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialMedia renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SocialMedia />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <IconButton
+          iconClass="fab fa-facebook-f"
+/>,
+        <IconButton
+          iconClass="fab fa-twitter"
+/>,
+        <IconButton
+          iconClass="fab fa-pinterest"
+/>,
+        <IconButton
+          iconClass="fab fa-instagram"
+/>,
+        <IconButton
+          iconClass="fab fa-tumblr"
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "Facebook",
+        "nodeType": "function",
+        "props": Object {
+          "iconClass": "fab fa-facebook-f",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "Twitter",
+        "nodeType": "function",
+        "props": Object {
+          "iconClass": "fab fa-twitter",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "Pinterest",
+        "nodeType": "function",
+        "props": Object {
+          "iconClass": "fab fa-pinterest",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "Instagram",
+        "nodeType": "function",
+        "props": Object {
+          "iconClass": "fab fa-instagram",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "Tumblr",
+        "nodeType": "function",
+        "props": Object {
+          "iconClass": "fab fa-tumblr",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <IconButton
+            iconClass="fab fa-facebook-f"
+/>,
+          <IconButton
+            iconClass="fab fa-twitter"
+/>,
+          <IconButton
+            iconClass="fab fa-pinterest"
+/>,
+          <IconButton
+            iconClass="fab fa-instagram"
+/>,
+          <IconButton
+            iconClass="fab fa-tumblr"
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "Facebook",
+          "nodeType": "function",
+          "props": Object {
+            "iconClass": "fab fa-facebook-f",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "Twitter",
+          "nodeType": "function",
+          "props": Object {
+            "iconClass": "fab fa-twitter",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "Pinterest",
+          "nodeType": "function",
+          "props": Object {
+            "iconClass": "fab fa-pinterest",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "Instagram",
+          "nodeType": "function",
+          "props": Object {
+            "iconClass": "fab fa-instagram",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "Tumblr",
+          "nodeType": "function",
+          "props": Object {
+            "iconClass": "fab fa-tumblr",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

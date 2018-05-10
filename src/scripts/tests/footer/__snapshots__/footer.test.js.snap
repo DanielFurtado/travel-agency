@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Footer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="footer-container"
+>
+        <address
+                className="contact-info footer-col"
+        >
+                <ContactInfo />
+        </address>
+        <div
+                className="social-media-links footer-col"
+        >
+                <SocialMedia />
+        </div>
+        <div
+                className="company-logo-footer footer-col"
+        >
+                <img
+                        alt="Travel Agency Logo BW"
+                        className="travel-agency-logo-footer"
+                        src="logo_large.png"
+                />
+        </div>
+</div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <address
+            className="contact-info footer-col"
+>
+            <ContactInfo />
+</address>,
+          <div
+            className="social-media-links footer-col"
+>
+            <SocialMedia />
+</div>,
+          <div
+            className="company-logo-footer footer-col"
+>
+            <img
+                        alt="Travel Agency Logo BW"
+                        className="travel-agency-logo-footer"
+                        src="logo_large.png"
+            />
+</div>,
+        ],
+        "className": "footer-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <ContactInfo />,
+            "className": "contact-info footer-col",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "address",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <SocialMedia />,
+            "className": "social-media-links footer-col",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="Travel Agency Logo BW"
+              className="travel-agency-logo-footer"
+              src="logo_large.png"
+/>,
+            "className": "company-logo-footer footer-col",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Travel Agency Logo BW",
+              "className": "travel-agency-logo-footer",
+              "src": "logo_large.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "footer",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="footer-container"
+>
+          <address
+                    className="contact-info footer-col"
+          >
+                    <ContactInfo />
+          </address>
+          <div
+                    className="social-media-links footer-col"
+          >
+                    <SocialMedia />
+          </div>
+          <div
+                    className="company-logo-footer footer-col"
+          >
+                    <img
+                              alt="Travel Agency Logo BW"
+                              className="travel-agency-logo-footer"
+                              src="logo_large.png"
+                    />
+          </div>
+</div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <address
+              className="contact-info footer-col"
+>
+              <ContactInfo />
+</address>,
+            <div
+              className="social-media-links footer-col"
+>
+              <SocialMedia />
+</div>,
+            <div
+              className="company-logo-footer footer-col"
+>
+              <img
+                            alt="Travel Agency Logo BW"
+                            className="travel-agency-logo-footer"
+                            src="logo_large.png"
+              />
+</div>,
+          ],
+          "className": "footer-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ContactInfo />,
+              "className": "contact-info footer-col",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "address",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <SocialMedia />,
+              "className": "social-media-links footer-col",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="Travel Agency Logo BW"
+                className="travel-agency-logo-footer"
+                src="logo_large.png"
+/>,
+              "className": "company-logo-footer footer-col",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Travel Agency Logo BW",
+                "className": "travel-agency-logo-footer",
+                "src": "logo_large.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "footer",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

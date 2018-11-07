@@ -1,4 +1,4 @@
-# Turbine Kreuzberg - Travel Agency 
+# Travel Agency 
 
 ## Install the project
 
